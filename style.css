@@ -1,0 +1,211 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container .header{
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    background: white;
+}
+.container .header .logo{
+    line-height: 70px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.container .header .menu{
+    width: auto;
+}
+.container .header .menu ul{
+    display: flex;
+}
+.container .header .menu ul li{
+    margin: 0 23px;
+    font-size: 13px;
+}
+.container .header .menu ul li a{
+    color: #222222;
+}
+.container .header .menu ul li a:hover{
+    color: hsl(11.11, 48.82%, 63.3%);
+}
+.container .about-us{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background: #eee;
+}
+.container .services{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 50px 150px;
+    margin-bottom: 20px;
+}
+
+.container .services .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .services .text .e{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.container .services .text .our-team{
+    font-size: 30px;
+}
+.container .services .text .lorem{
+    font-size: 14px;
+    color: #807c7c;
+    letter-spacing: 1px;
+}
+
+.container .services .images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.container .services .images .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 280px;
+    height: 280px;
+    border: solid 1px #dee2e6;
+    border-radius: 0.25rem;
+    padding: 0 20px;
+}
+
+.container .services .images .img .photo i{
+    font-size: 30px;
+}
+.container .services .images .img .text{
+    color: #807c7c;
+    font-size: 14px;
+}
+.container .team{
+    width: 100%;
+    padding: 0 150px;
+    box-sizing: border-box;
+    background-color: #f6f6f6
+}
+.container .team .our-text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container .team .our-text .bigger{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.container .team .our-text .comment-text{
+    color: #807c7c;
+    line-height: 1.8;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 16px 0;
+}
+.container .team .our-team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.container .team .our-team .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 435px;
+}
+.container .team .our-team .person .text-uppercase{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+}
+.container .team .our-team .person img{
+    width: 312px;
+    height: 327px;
+    border-radius: 5px;
+}
+.container .team .our-team .person .comment{
+    font-family: "Poppins", sans-serif;
+    color: #807c7c;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    background: #222222;
+    padding: 100px 0 48px 0;
+}
+.footer .logo{
+    width: 171px;
+    height: 180px;
+    padding: 0 25px;
+}
+.footer .section{
+    display: flex;
+    flex-direction: column;
+    width: 171px;
+    height: 180px;
+    padding: 0 25px;
+}
+.footer .section :first-child{
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.footer .section a{
+        color: #69676780;
+        letter-spacing: 0.4px;
+        line-height: 40px;
+        display: block;
+}
+.footer .section a:hover{
+    transition: all 0.5s;
+    color: #ffffff;
+}
+.footer .logo{
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
